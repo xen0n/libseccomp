@@ -14,6 +14,7 @@
 #include "arch-aarch64.h"
 #include "arch-arm.h"
 #include "arch.h"
+#include "arch-loongarch64.h"
 #include "arch-mips64.h"
 #include "arch-mips64n32.h"
 #include "arch-mips.h"
@@ -41,6 +42,7 @@ struct arch_syscall_table {
 	int x32;
 	int arm;
 	int aarch64;
+	int loongarch64;
 	int mips;
 	int mips64;
 	int mips64n32;
