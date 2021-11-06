@@ -276,7 +276,8 @@
 #define __PNR_renameat				-10242
 #define __PNR_riscv_flush_icache		-10243
 #define __PNR_memfd_secret			-10244
-#define __PNR_map_shadow_stack			-10245
+#define __PNR_fstat				-10245
+#define __PNR_map_shadow_stack			-10246
 
 /*
  * libseccomp syscall definitions
